@@ -1,4 +1,4 @@
-.history{
+.avtor{
     padding-bottom: 2rem;
 
     &-img{
@@ -10,7 +10,7 @@
             rgba($primary-color, .9),
             rgba($primary-color, .5),  
         ),
-        url('../img/history-img.webp') center;
+        url('../img/avtor.webp') center;
         background-size: cover;
 
         display: flex;
@@ -31,7 +31,7 @@
         }
     }
 
-    .history{
+    .avtor{
         width: 60vw;
         margin: 2rem auto 0 auto;
         display: grid;
