@@ -1,0 +1,69 @@
+@include media-sm{
+    .home{
+        &-name{
+            font-size: 3rem;
+        }
+    }
+
+    footer{
+        transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+}
+
+@include media-md{
+
+    .home{
+        &-name{
+            font-size: 5rem;
+        }
+    }
+    .about-bio{
+        font-size: 1.5rem;
+    }
+
+    .projects{
+        &-park-img{
+            height: 40vh;
+        }
+
+        &-items{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .text-secondary{
+            font-size: 3rem;
+        }
+    }
+
+    .contact{
+        &-list{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    } 
+
+    footer{
+        transform: none;
+    }
+}
+
+@include media-lg{
+    .projects{
+        &-items{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .contact{
+        &-list{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@include media-xl{
+    .projects{
+        &-parl-img{
+            height: 50vh;
+        }
+    }
+}
